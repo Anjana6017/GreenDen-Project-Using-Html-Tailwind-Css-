@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greenden</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!-- Responsive Navbar -->
+    <nav
+      class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-50"
+    >
+      <h1 class="text-2xl">Greenden</h1>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6 md:hidden"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+        />
+      </svg>
+
+      <ul class="flex gap-5 text-gray-600 hidden md:flex">
+        <li>
+          <a class="hover:underline hover:text-black" href="index.html">Home</a>
+        </li>
+        <li>
+          <a class="hover:underline hover:text-black" href="Products.html"
+            >Products</a
+          >
+        </li>
+        <li>
+          <a class="hover:underline hover:text-black" href="Contact.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- Fist Section -->
+    <section>
+      <div class="max-w-3xl mx-auto mt-16" v>
+        <h1 class="text-3xl text-center font-bold">Contact Us</h1>
+        <p class="mt-10 mb-5">
+          Got a technical issue? Want to send feedback about a beta feature?
+          Need details about our Business plan?
+        </p>
+        <div>
+          <h3 class="font-bold text-justify">Your Email</h3>
+          <input
+            type="text"
+            placeholder="Enter Your Mail-Id eg:abc@Gmail.com..."
+            class="block w-full max-w-3xl mx-auto mt-3 border border-black p-3 outline-none focus:ring-2 focus:ring-green-500 rounded-lg"
+          />
+          <h3 class="font-bold mt-5">Subject</h3>
+          <input
+            type="text"
+            placeholder="Let us Know How We Can  Help U"
+            class="block w-full max-w-3xl mx-auto mt-3 border border-black p-3 outline-none focus:ring-2 focus:ring-green-500 rounded-lg"
+          />
+          <h3 class="font-bold mt-5">Your Message</h3>
+          <input
+            type="text"
+            placeholder="Enter Your Message"
+            class="block w-full max-w-3xl mx-auto mt-3 border border-black p-3 outline-none focus:ring-2 focus:ring-green-500 rounded-lg"
+          />
+        </div>
+      </div>
+    </section>
+    <div class="p-4 text-center">
+      <a
+        href="index.html"
+        class="inline-block bg-black-500 text-white px-6 py-3 rounded-lg hover:bg-green-800"
+      >
+        Next Page →
+      </a>
+    </div>
+    <section>
+      <div class="bg-green-100 mt-10 h-50 mt-10">
+        <h1 class="text-3xl font-bold mt-5 ml-10">GreenDen</h1>
+        <p class="mt-5 ml-10">
+          The Standard chunk of Lorem ipsum used since the 1500s is reprodused
+          below for those interest
+        </p>
+        <p class="mt-5 ml-10">@2026 GreenDen.com</p>
+      </div>
+    </section>
+  </body>
+</html>
